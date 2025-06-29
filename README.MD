@@ -25,6 +25,22 @@ This project analyzes edit wars and bias patterns in Wikipedia articles related 
 - LLMs performed well on handcrafted examples but failed on large Reddit datasets.
 - Final classifier: fast sklearn-based model trained on weakly-labeled Reddit data.
 
+## 📁 Data Files
+Place these two CSV files in your data/ folder:
+
+- data/posts.csv
+
+- data/reddit_comments_clean.csv
+
+## 🤖 Pre-trained Models
+In your models/ folder, download or clone the following Hugging Face model repositories (clickable links included for copy/paste convenience):
+
+- deepseek-llm-7b   https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat
+
+- DeepSeek-V2-Lite  https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite
+
+- bart-large-mnli   https://huggingface.co/facebook/bart-large-mnli
+
 ## 👤 Author
 
 **Omer Presler**  
